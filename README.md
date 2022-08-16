@@ -6,7 +6,7 @@ This project...
 
 The report can be found [here.](R/The-Usual-Suspects.md)
 
-The code can be found [here.](R/The Usual Suspects.Rmd.Rmd)
+The code can be found [here.](R/The Usual Suspects.Rmd)
 
 <br/>
 

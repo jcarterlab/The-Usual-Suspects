@@ -1,0 +1,1441 @@
+country,year,corruption
+Denmark,2019,87
+New Zealand,2019,87
+Finland,2019,86
+Singapore,2019,85
+Sweden,2019,85
+Switzerland,2019,85
+Norway,2019,84
+Netherlands,2019,82
+Germany,2019,80
+Luxembourg,2019,80
+Australia,2019,77
+Canada,2019,77
+Hong Kong,2019,76
+United Kingdom,2019,77
+Austria,2019,77
+Belgium,2019,75
+Estonia,2019,74
+Iceland,2019,78
+Japan,2019,73
+Ireland,2019,74
+United Arab Emirates,2019,71
+Uruguay,2019,71
+France,2019,69
+Bhutan,2019,68
+Chile,2019,67
+United States of America,2019,69
+Seychelles,2019,66
+Taiwan,2019,65
+Barbados,2019,62
+Bahamas,2019,64
+Qatar,2019,62
+Spain,2019,62
+"Korea, South",2019,59
+Portugal,2019,62
+Botswana,2019,61
+Brunei Darussalam,2019,60
+Israel,2019,60
+Lithuania,2019,60
+Slovenia,2019,60
+Saint Vincent and the Grenadines,2019,59
+Cabo Verde,2019,58
+Costa Rica,2019,56
+Cyprus,2019,58
+Latvia,2019,56
+Georgia,2019,56
+Poland,2019,58
+Saint Lucia,2019,55
+Dominica,2019,55
+Czechia,2019,56
+Oman,2019,52
+Rwanda,2019,53
+Grenada,2019,53
+Italy,2019,53
+Malta,2019,54
+Mauritius,2019,52
+Saudi Arabia,2019,53
+Malaysia,2019,53
+Namibia,2019,52
+Greece,2019,48
+Armenia,2019,42
+Jordan,2019,48
+Slovakia,2019,50
+Belarus,2019,45
+Croatia,2019,47
+Cuba,2019,48
+Sao Tome and Principe,2019,46
+Montenegro,2019,45
+Senegal,2019,45
+Bulgaria,2019,43
+Hungary,2019,44
+Jamaica,2019,43
+Romania,2019,44
+South Africa,2019,44
+Tunisia,2019,43
+Ghana,2019,41
+Maldives,2019,29
+Vanuatu,2019,46
+Argentina,2019,45
+Bahrain,2019,42
+China,2019,41
+Kuwait,2019,40
+Solomon Islands,2019,42
+Benin,2019,41
+Guyana,2019,40
+Lesotho,2019,40
+Burkina Faso,2019,40
+India,2019,41
+Morocco,2019,41
+Timor-Leste,2019,38
+Trinidad and Tobago,2019,40
+Turkey,2019,39
+Colombia,2019,37
+Ecuador,2019,38
+Brazil,2019,35
+Ethiopia,2019,37
+Kazakhstan,2019,34
+Peru,2019,36
+Serbia,2019,39
+Sri Lanka,2019,38
+Suriname,2019,44
+Tanzania,2019,37
+Gambia,2019,37
+Indonesia,2019,40
+Albania,2019,35
+Algeria,2019,35
+Cote d'Ivoire,2019,35
+El Salvador,2019,34
+Kosovo,2019,36
+Thailand,2019,36
+Vietnam,2019,37
+Bosnia and Herzegovina,2019,36
+Mongolia,2019,35
+North Macedonia,2019,35
+Panama,2019,36
+Moldova,2019,32
+Philippines,2019,34
+Egypt,2019,35
+Eswatini,2019,34
+Nepal,2019,34
+Sierra Leone,2019,33
+Ukraine,2019,30
+Zambia,2019,34
+Niger,2019,32
+Bolivia,2019,31
+Kenya,2019,28
+Kyrgyzstan,2019,30
+Mexico,2019,29
+Pakistan,2019,32
+Azerbaijan,2019,30
+Gabon,2019,31
+Malawi,2019,31
+Mali,2019,29
+Russia,2019,28
+Laos,2019,29
+Mauritania,2019,28
+Togo,2019,29
+Dominican Republic,2019,28
+Guinea,2019,29
+Liberia,2019,28
+Myanmar,2019,29
+Paraguay,2019,28
+Angola,2019,26
+Djibouti,2019,30
+Papua New Guinea,2019,28
+Uganda,2019,28
+Bangladesh,2019,26
+Central African Republic,2019,25
+Uzbekistan,2019,25
+Cameroon,2019,25
+Guatemala,2019,26
+Iran,2019,26
+Lebanon,2019,28
+Madagascar,2019,24
+Mozambique,2019,26
+Nigeria,2019,26
+Tajikistan,2019,25
+Honduras,2019,26
+Zimbabwe,2019,24
+Nicaragua,2019,22
+Cambodia,2019,20
+Chad,2019,20
+Comoros,2019,25
+Eritrea,2019,23
+Iraq,2019,20
+Afghanistan,2019,16
+Burundi,2019,19
+Congo,2019,19
+Guinea Bissau,2019,18
+Turkmenistan,2019,19
+Democratic Republic of the Congo,2019,18
+Haiti,2019,18
+"Korea, North",2019,17
+Libya,2019,18
+Equatorial Guinea,2019,16
+Sudan,2019,16
+Venezuela,2019,16
+Yemen,2019,15
+Syria,2019,13
+Somalia,2019,9
+South Sudan,2019,12
+Denmark,2018,88
+New Zealand,2018,87
+Finland,2018,85
+Singapore,2018,85
+Sweden,2018,85
+Switzerland,2018,85
+Norway,2018,84
+Netherlands,2018,82
+Germany,2018,80
+Luxembourg,2018,81
+Australia,2018,77
+Canada,2018,81
+Hong Kong,2018,76
+United Kingdom,2018,80
+Austria,2018,76
+Belgium,2018,75
+Estonia,2018,73
+Iceland,2018,76
+Japan,2018,73
+Ireland,2018,73
+United Arab Emirates,2018,70
+Uruguay,2018,70
+France,2018,72
+Bhutan,2018,68
+Chile,2018,67
+United States of America,2018,71
+Seychelles,2018,66
+Taiwan,2018,63
+Barbados,2018,68
+Bahamas,2018,65
+Qatar,2018,62
+Spain,2018,58
+"Korea, South",2018,57
+Portugal,2018,64
+Botswana,2018,61
+Brunei Darussalam,2018,63
+Israel,2018,61
+Lithuania,2018,59
+Slovenia,2018,60
+Saint Vincent and the Grenadines,2018,58
+Cabo Verde,2018,57
+Costa Rica,2018,56
+Cyprus,2018,59
+Latvia,2018,58
+Georgia,2018,58
+Poland,2018,60
+Saint Lucia,2018,55
+Dominica,2018,57
+Czechia,2018,59
+Oman,2018,52
+Rwanda,2018,56
+Grenada,2018,52
+Italy,2018,52
+Malta,2018,54
+Mauritius,2018,51
+Saudi Arabia,2018,49
+Malaysia,2018,47
+Namibia,2018,53
+Greece,2018,45
+Armenia,2018,35
+Jordan,2018,49
+Slovakia,2018,50
+Belarus,2018,44
+Croatia,2018,48
+Cuba,2018,47
+Sao Tome and Principe,2018,46
+Montenegro,2018,45
+Senegal,2018,45
+Bulgaria,2018,42
+Hungary,2018,46
+Jamaica,2018,44
+Romania,2018,47
+South Africa,2018,43
+Tunisia,2018,43
+Ghana,2018,41
+Maldives,2018,31
+Vanuatu,2018,46
+Argentina,2018,40
+Bahrain,2018,36
+China,2018,39
+Kuwait,2018,41
+Solomon Islands,2018,44
+Benin,2018,40
+Guyana,2018,37
+Lesotho,2018,41
+Burkina Faso,2018,41
+India,2018,41
+Morocco,2018,43
+Timor-Leste,2018,35
+Trinidad and Tobago,2018,41
+Turkey,2018,41
+Colombia,2018,36
+Ecuador,2018,34
+Brazil,2018,35
+Ethiopia,2018,34
+Kazakhstan,2018,31
+Peru,2018,35
+Serbia,2018,39
+Sri Lanka,2018,38
+Suriname,2018,43
+Tanzania,2018,36
+Gambia,2018,37
+Indonesia,2018,38
+Albania,2018,36
+Algeria,2018,35
+Cote d'Ivoire,2018,35
+El Salvador,2018,35
+Kosovo,2018,37
+Thailand,2018,36
+Vietnam,2018,33
+Bosnia and Herzegovina,2018,38
+Mongolia,2018,37
+North Macedonia,2018,37
+Panama,2018,37
+Moldova,2018,33
+Philippines,2018,36
+Egypt,2018,35
+Eswatini,2018,38
+Nepal,2018,31
+Sierra Leone,2018,30
+Ukraine,2018,32
+Zambia,2018,35
+Niger,2018,34
+Bolivia,2018,29
+Kenya,2018,27
+Kyrgyzstan,2018,29
+Mexico,2018,28
+Pakistan,2018,33
+Azerbaijan,2018,25
+Gabon,2018,31
+Malawi,2018,32
+Mali,2018,32
+Russia,2018,28
+Laos,2018,29
+Mauritania,2018,27
+Togo,2018,30
+Dominican Republic,2018,30
+Guinea,2018,28
+Liberia,2018,32
+Myanmar,2018,29
+Paraguay,2018,29
+Angola,2018,19
+Djibouti,2018,31
+Papua New Guinea,2018,28
+Uganda,2018,26
+Bangladesh,2018,26
+Central African Republic,2018,26
+Uzbekistan,2018,23
+Cameroon,2018,25
+Guatemala,2018,27
+Iran,2018,28
+Lebanon,2018,28
+Madagascar,2018,25
+Mozambique,2018,23
+Nigeria,2018,27
+Tajikistan,2018,25
+Honduras,2018,29
+Zimbabwe,2018,22
+Nicaragua,2018,25
+Cambodia,2018,20
+Chad,2018,19
+Comoros,2018,27
+Eritrea,2018,24
+Iraq,2018,18
+Afghanistan,2018,16
+Burundi,2018,17
+Congo,2018,19
+Guinea Bissau,2018,16
+Turkmenistan,2018,20
+Democratic Republic of the Congo,2018,20
+Haiti,2018,20
+"Korea, North",2018,14
+Libya,2018,17
+Equatorial Guinea,2018,16
+Sudan,2018,16
+Venezuela,2018,18
+Yemen,2018,14
+Syria,2018,13
+Somalia,2018,10
+South Sudan,2018,13
+Denmark,2017,88
+New Zealand,2017,89
+Finland,2017,85
+Singapore,2017,84
+Sweden,2017,84
+Switzerland,2017,85
+Norway,2017,85
+Netherlands,2017,82
+Germany,2017,81
+Luxembourg,2017,82
+Australia,2017,77
+Canada,2017,82
+Hong Kong,2017,77
+United Kingdom,2017,82
+Austria,2017,75
+Belgium,2017,75
+Estonia,2017,71
+Iceland,2017,77
+Japan,2017,73
+Ireland,2017,74
+United Arab Emirates,2017,71
+Uruguay,2017,70
+France,2017,70
+Bhutan,2017,67
+Chile,2017,67
+United States of America,2017,75
+Seychelles,2017,60
+Taiwan,2017,63
+Barbados,2017,68
+Bahamas,2017,65
+Qatar,2017,63
+Spain,2017,57
+"Korea, South",2017,54
+Portugal,2017,63
+Botswana,2017,61
+Brunei Darussalam,2017,62
+Israel,2017,62
+Lithuania,2017,59
+Slovenia,2017,61
+Saint Vincent and the Grenadines,2017,58
+Cabo Verde,2017,55
+Costa Rica,2017,59
+Cyprus,2017,57
+Latvia,2017,58
+Georgia,2017,56
+Poland,2017,60
+Saint Lucia,2017,55
+Dominica,2017,57
+Czechia,2017,57
+Oman,2017,44
+Rwanda,2017,55
+Grenada,2017,52
+Italy,2017,50
+Malta,2017,56
+Mauritius,2017,50
+Saudi Arabia,2017,49
+Malaysia,2017,47
+Namibia,2017,51
+Greece,2017,48
+Armenia,2017,35
+Jordan,2017,48
+Slovakia,2017,50
+Belarus,2017,44
+Croatia,2017,49
+Cuba,2017,47
+Sao Tome and Principe,2017,46
+Montenegro,2017,46
+Senegal,2017,45
+Bulgaria,2017,43
+Hungary,2017,45
+Jamaica,2017,44
+Romania,2017,48
+South Africa,2017,43
+Tunisia,2017,42
+Ghana,2017,40
+Maldives,2017,33
+Vanuatu,2017,43
+Argentina,2017,39
+Bahrain,2017,36
+China,2017,41
+Kuwait,2017,39
+Solomon Islands,2017,39
+Benin,2017,39
+Guyana,2017,38
+Lesotho,2017,42
+Burkina Faso,2017,42
+India,2017,40
+Morocco,2017,40
+Timor-Leste,2017,38
+Trinidad and Tobago,2017,41
+Turkey,2017,40
+Colombia,2017,37
+Ecuador,2017,32
+Brazil,2017,37
+Ethiopia,2017,35
+Kazakhstan,2017,31
+Peru,2017,37
+Serbia,2017,41
+Sri Lanka,2017,38
+Suriname,2017,41
+Tanzania,2017,36
+Gambia,2017,30
+Indonesia,2017,37
+Albania,2017,38
+Algeria,2017,33
+Cote d'Ivoire,2017,36
+El Salvador,2017,33
+Kosovo,2017,39
+Thailand,2017,37
+Vietnam,2017,35
+Bosnia and Herzegovina,2017,38
+Mongolia,2017,36
+North Macedonia,2017,35
+Panama,2017,37
+Moldova,2017,31
+Philippines,2017,34
+Egypt,2017,32
+Eswatini,2017,39
+Nepal,2017,31
+Sierra Leone,2017,30
+Ukraine,2017,30
+Zambia,2017,37
+Niger,2017,33
+Bolivia,2017,33
+Kenya,2017,28
+Kyrgyzstan,2017,29
+Mexico,2017,29
+Pakistan,2017,32
+Azerbaijan,2017,31
+Gabon,2017,32
+Malawi,2017,31
+Mali,2017,31
+Russia,2017,29
+Laos,2017,29
+Mauritania,2017,28
+Togo,2017,32
+Dominican Republic,2017,29
+Guinea,2017,27
+Liberia,2017,31
+Myanmar,2017,30
+Paraguay,2017,29
+Angola,2017,19
+Djibouti,2017,31
+Papua New Guinea,2017,29
+Uganda,2017,26
+Bangladesh,2017,28
+Central African Republic,2017,23
+Uzbekistan,2017,22
+Cameroon,2017,25
+Guatemala,2017,28
+Iran,2017,30
+Lebanon,2017,28
+Madagascar,2017,24
+Mozambique,2017,25
+Nigeria,2017,27
+Tajikistan,2017,21
+Honduras,2017,29
+Zimbabwe,2017,22
+Nicaragua,2017,26
+Cambodia,2017,21
+Chad,2017,20
+Comoros,2017,27
+Eritrea,2017,20
+Iraq,2017,18
+Afghanistan,2017,15
+Burundi,2017,22
+Congo,2017,21
+Guinea Bissau,2017,17
+Turkmenistan,2017,19
+Democratic Republic of the Congo,2017,21
+Haiti,2017,22
+"Korea, North",2017,17
+Libya,2017,17
+Equatorial Guinea,2017,17
+Sudan,2017,16
+Venezuela,2017,18
+Yemen,2017,16
+Syria,2017,14
+Somalia,2017,9
+South Sudan,2017,12
+Denmark,2016,90
+New Zealand,2016,90
+Finland,2016,89
+Singapore,2016,84
+Sweden,2016,88
+Switzerland,2016,86
+Norway,2016,85
+Netherlands,2016,83
+Germany,2016,81
+Luxembourg,2016,81
+Australia,2016,79
+Canada,2016,82
+Hong Kong,2016,77
+United Kingdom,2016,81
+Austria,2016,75
+Belgium,2016,77
+Estonia,2016,70
+Iceland,2016,78
+Japan,2016,72
+Ireland,2016,73
+United Arab Emirates,2016,66
+Uruguay,2016,71
+France,2016,69
+Bhutan,2016,65
+Chile,2016,66
+United States of America,2016,74
+Seychelles,2016,NA
+Taiwan,2016,61
+Barbados,2016,61
+Bahamas,2016,66
+Qatar,2016,61
+Spain,2016,58
+"Korea, South",2016,53
+Portugal,2016,62
+Botswana,2016,60
+Brunei Darussalam,2016,58
+Israel,2016,64
+Lithuania,2016,59
+Slovenia,2016,61
+Saint Vincent and the Grenadines,2016,60
+Cabo Verde,2016,59
+Costa Rica,2016,58
+Cyprus,2016,55
+Latvia,2016,57
+Georgia,2016,57
+Poland,2016,62
+Saint Lucia,2016,60
+Dominica,2016,59
+Czechia,2016,55
+Oman,2016,45
+Rwanda,2016,54
+Grenada,2016,56
+Italy,2016,47
+Malta,2016,55
+Mauritius,2016,54
+Saudi Arabia,2016,46
+Malaysia,2016,49
+Namibia,2016,52
+Greece,2016,44
+Armenia,2016,33
+Jordan,2016,48
+Slovakia,2016,51
+Belarus,2016,40
+Croatia,2016,49
+Cuba,2016,47
+Sao Tome and Principe,2016,46
+Montenegro,2016,45
+Senegal,2016,45
+Bulgaria,2016,41
+Hungary,2016,48
+Jamaica,2016,39
+Romania,2016,48
+South Africa,2016,45
+Tunisia,2016,41
+Ghana,2016,43
+Maldives,2016,36
+Vanuatu,2016,NA
+Argentina,2016,36
+Bahrain,2016,43
+China,2016,40
+Kuwait,2016,41
+Solomon Islands,2016,42
+Benin,2016,36
+Guyana,2016,34
+Lesotho,2016,39
+Burkina Faso,2016,42
+India,2016,40
+Morocco,2016,37
+Timor-Leste,2016,35
+Trinidad and Tobago,2016,35
+Turkey,2016,41
+Colombia,2016,37
+Ecuador,2016,31
+Brazil,2016,40
+Ethiopia,2016,34
+Kazakhstan,2016,29
+Peru,2016,35
+Serbia,2016,42
+Sri Lanka,2016,36
+Suriname,2016,45
+Tanzania,2016,32
+Gambia,2016,26
+Indonesia,2016,37
+Albania,2016,39
+Algeria,2016,34
+Cote d'Ivoire,2016,34
+El Salvador,2016,36
+Kosovo,2016,36
+Thailand,2016,35
+Vietnam,2016,33
+Bosnia and Herzegovina,2016,39
+Mongolia,2016,38
+North Macedonia,2016,37
+Panama,2016,38
+Moldova,2016,30
+Philippines,2016,35
+Egypt,2016,34
+Eswatini,2016,NA
+Nepal,2016,29
+Sierra Leone,2016,30
+Ukraine,2016,29
+Zambia,2016,38
+Niger,2016,35
+Bolivia,2016,33
+Kenya,2016,26
+Kyrgyzstan,2016,28
+Mexico,2016,30
+Pakistan,2016,32
+Azerbaijan,2016,30
+Gabon,2016,35
+Malawi,2016,31
+Mali,2016,32
+Russia,2016,29
+Laos,2016,30
+Mauritania,2016,27
+Togo,2016,32
+Dominican Republic,2016,31
+Guinea,2016,27
+Liberia,2016,37
+Myanmar,2016,28
+Paraguay,2016,30
+Angola,2016,18
+Djibouti,2016,30
+Papua New Guinea,2016,28
+Uganda,2016,25
+Bangladesh,2016,26
+Central African Republic,2016,20
+Uzbekistan,2016,21
+Cameroon,2016,26
+Guatemala,2016,28
+Iran,2016,29
+Lebanon,2016,28
+Madagascar,2016,26
+Mozambique,2016,27
+Nigeria,2016,28
+Tajikistan,2016,25
+Honduras,2016,30
+Zimbabwe,2016,22
+Nicaragua,2016,26
+Cambodia,2016,21
+Chad,2016,20
+Comoros,2016,24
+Eritrea,2016,18
+Iraq,2016,17
+Afghanistan,2016,15
+Burundi,2016,20
+Congo,2016,20
+Guinea Bissau,2016,16
+Turkmenistan,2016,22
+Democratic Republic of the Congo,2016,21
+Haiti,2016,20
+"Korea, North",2016,12
+Libya,2016,14
+Equatorial Guinea,2016,NA
+Sudan,2016,14
+Venezuela,2016,17
+Yemen,2016,14
+Syria,2016,13
+Somalia,2016,10
+South Sudan,2016,11
+Denmark,2015,91
+New Zealand,2015,91
+Finland,2015,90
+Singapore,2015,85
+Sweden,2015,89
+Switzerland,2015,86
+Norway,2015,88
+Netherlands,2015,84
+Germany,2015,81
+Luxembourg,2015,85
+Australia,2015,79
+Canada,2015,83
+Hong Kong,2015,75
+United Kingdom,2015,81
+Austria,2015,76
+Belgium,2015,77
+Estonia,2015,70
+Iceland,2015,79
+Japan,2015,75
+Ireland,2015,75
+United Arab Emirates,2015,70
+Uruguay,2015,74
+France,2015,70
+Bhutan,2015,65
+Chile,2015,70
+United States of America,2015,76
+Seychelles,2015,55
+Taiwan,2015,62
+Barbados,2015,NA
+Bahamas,2015,NA
+Qatar,2015,71
+Spain,2015,58
+"Korea, South",2015,54
+Portugal,2015,64
+Botswana,2015,63
+Brunei Darussalam,2015,NA
+Israel,2015,61
+Lithuania,2015,59
+Slovenia,2015,60
+Saint Vincent and the Grenadines,2015,NA
+Cabo Verde,2015,55
+Costa Rica,2015,55
+Cyprus,2015,61
+Latvia,2015,56
+Georgia,2015,52
+Poland,2015,63
+Saint Lucia,2015,NA
+Dominica,2015,NA
+Czechia,2015,56
+Oman,2015,45
+Rwanda,2015,54
+Grenada,2015,NA
+Italy,2015,44
+Malta,2015,60
+Mauritius,2015,53
+Saudi Arabia,2015,52
+Malaysia,2015,50
+Namibia,2015,53
+Greece,2015,46
+Armenia,2015,35
+Jordan,2015,53
+Slovakia,2015,51
+Belarus,2015,32
+Croatia,2015,51
+Cuba,2015,47
+Sao Tome and Principe,2015,42
+Montenegro,2015,44
+Senegal,2015,44
+Bulgaria,2015,41
+Hungary,2015,51
+Jamaica,2015,41
+Romania,2015,46
+South Africa,2015,44
+Tunisia,2015,38
+Ghana,2015,47
+Maldives,2015,NA
+Vanuatu,2015,NA
+Argentina,2015,32
+Bahrain,2015,51
+China,2015,37
+Kuwait,2015,49
+Solomon Islands,2015,NA
+Benin,2015,37
+Guyana,2015,29
+Lesotho,2015,44
+Burkina Faso,2015,38
+India,2015,38
+Morocco,2015,36
+Timor-Leste,2015,28
+Trinidad and Tobago,2015,39
+Turkey,2015,42
+Colombia,2015,37
+Ecuador,2015,32
+Brazil,2015,38
+Ethiopia,2015,33
+Kazakhstan,2015,28
+Peru,2015,36
+Serbia,2015,40
+Sri Lanka,2015,37
+Suriname,2015,36
+Tanzania,2015,30
+Gambia,2015,28
+Indonesia,2015,36
+Albania,2015,36
+Algeria,2015,36
+Cote d'Ivoire,2015,32
+El Salvador,2015,39
+Kosovo,2015,33
+Thailand,2015,38
+Vietnam,2015,31
+Bosnia and Herzegovina,2015,38
+Mongolia,2015,39
+North Macedonia,2015,42
+Panama,2015,39
+Moldova,2015,33
+Philippines,2015,35
+Egypt,2015,36
+Eswatini,2015,NA
+Nepal,2015,27
+Sierra Leone,2015,29
+Ukraine,2015,27
+Zambia,2015,38
+Niger,2015,34
+Bolivia,2015,34
+Kenya,2015,25
+Kyrgyzstan,2015,28
+Mexico,2015,31
+Pakistan,2015,30
+Azerbaijan,2015,29
+Gabon,2015,34
+Malawi,2015,31
+Mali,2015,35
+Russia,2015,29
+Laos,2015,25
+Mauritania,2015,31
+Togo,2015,32
+Dominican Republic,2015,33
+Guinea,2015,25
+Liberia,2015,37
+Myanmar,2015,22
+Paraguay,2015,27
+Angola,2015,15
+Djibouti,2015,34
+Papua New Guinea,2015,25
+Uganda,2015,25
+Bangladesh,2015,25
+Central African Republic,2015,24
+Uzbekistan,2015,19
+Cameroon,2015,27
+Guatemala,2015,28
+Iran,2015,27
+Lebanon,2015,28
+Madagascar,2015,28
+Mozambique,2015,31
+Nigeria,2015,26
+Tajikistan,2015,26
+Honduras,2015,31
+Zimbabwe,2015,21
+Nicaragua,2015,27
+Cambodia,2015,21
+Chad,2015,22
+Comoros,2015,26
+Eritrea,2015,18
+Iraq,2015,16
+Afghanistan,2015,11
+Burundi,2015,21
+Congo,2015,23
+Guinea Bissau,2015,17
+Turkmenistan,2015,18
+Democratic Republic of the Congo,2015,22
+Haiti,2015,17
+"Korea, North",2015,8
+Libya,2015,16
+Equatorial Guinea,2015,NA
+Sudan,2015,12
+Venezuela,2015,17
+Yemen,2015,18
+Syria,2015,18
+Somalia,2015,8
+South Sudan,2015,15
+Denmark,2014,92
+New Zealand,2014,91
+Finland,2014,89
+Singapore,2014,84
+Sweden,2014,87
+Switzerland,2014,86
+Norway,2014,86
+Netherlands,2014,83
+Germany,2014,79
+Luxembourg,2014,82
+Australia,2014,80
+Canada,2014,81
+Hong Kong,2014,74
+United Kingdom,2014,78
+Austria,2014,72
+Belgium,2014,76
+Estonia,2014,69
+Iceland,2014,79
+Japan,2014,76
+Ireland,2014,74
+United Arab Emirates,2014,70
+Uruguay,2014,73
+France,2014,69
+Bhutan,2014,65
+Chile,2014,73
+United States of America,2014,74
+Seychelles,2014,55
+Taiwan,2014,61
+Barbados,2014,74
+Bahamas,2014,71
+Qatar,2014,69
+Spain,2014,60
+"Korea, South",2014,55
+Portugal,2014,63
+Botswana,2014,63
+Brunei Darussalam,2014,NA
+Israel,2014,60
+Lithuania,2014,58
+Slovenia,2014,58
+Saint Vincent and the Grenadines,2014,62
+Cabo Verde,2014,57
+Costa Rica,2014,54
+Cyprus,2014,63
+Latvia,2014,55
+Georgia,2014,52
+Poland,2014,61
+Saint Lucia,2014,71
+Dominica,2014,58
+Czechia,2014,51
+Oman,2014,45
+Rwanda,2014,49
+Grenada,2014,NA
+Italy,2014,43
+Malta,2014,55
+Mauritius,2014,54
+Saudi Arabia,2014,49
+Malaysia,2014,52
+Namibia,2014,49
+Greece,2014,43
+Armenia,2014,37
+Jordan,2014,49
+Slovakia,2014,50
+Belarus,2014,31
+Croatia,2014,48
+Cuba,2014,46
+Sao Tome and Principe,2014,42
+Montenegro,2014,42
+Senegal,2014,43
+Bulgaria,2014,43
+Hungary,2014,54
+Jamaica,2014,38
+Romania,2014,43
+South Africa,2014,44
+Tunisia,2014,40
+Ghana,2014,48
+Maldives,2014,NA
+Vanuatu,2014,NA
+Argentina,2014,34
+Bahrain,2014,49
+China,2014,36
+Kuwait,2014,44
+Solomon Islands,2014,NA
+Benin,2014,39
+Guyana,2014,30
+Lesotho,2014,49
+Burkina Faso,2014,38
+India,2014,38
+Morocco,2014,39
+Timor-Leste,2014,28
+Trinidad and Tobago,2014,38
+Turkey,2014,45
+Colombia,2014,37
+Ecuador,2014,33
+Brazil,2014,43
+Ethiopia,2014,33
+Kazakhstan,2014,29
+Peru,2014,38
+Serbia,2014,41
+Sri Lanka,2014,38
+Suriname,2014,36
+Tanzania,2014,31
+Gambia,2014,29
+Indonesia,2014,34
+Albania,2014,33
+Algeria,2014,36
+Cote d'Ivoire,2014,32
+El Salvador,2014,39
+Kosovo,2014,33
+Thailand,2014,38
+Vietnam,2014,31
+Bosnia and Herzegovina,2014,39
+Mongolia,2014,39
+North Macedonia,2014,45
+Panama,2014,37
+Moldova,2014,35
+Philippines,2014,38
+Egypt,2014,37
+Eswatini,2014,43
+Nepal,2014,29
+Sierra Leone,2014,31
+Ukraine,2014,26
+Zambia,2014,38
+Niger,2014,35
+Bolivia,2014,35
+Kenya,2014,25
+Kyrgyzstan,2014,27
+Mexico,2014,35
+Pakistan,2014,29
+Azerbaijan,2014,29
+Gabon,2014,37
+Malawi,2014,33
+Mali,2014,32
+Russia,2014,27
+Laos,2014,25
+Mauritania,2014,30
+Togo,2014,29
+Dominican Republic,2014,32
+Guinea,2014,25
+Liberia,2014,37
+Myanmar,2014,21
+Paraguay,2014,24
+Angola,2014,19
+Djibouti,2014,34
+Papua New Guinea,2014,25
+Uganda,2014,26
+Bangladesh,2014,25
+Central African Republic,2014,24
+Uzbekistan,2014,18
+Cameroon,2014,27
+Guatemala,2014,32
+Iran,2014,27
+Lebanon,2014,27
+Madagascar,2014,28
+Mozambique,2014,31
+Nigeria,2014,27
+Tajikistan,2014,23
+Honduras,2014,29
+Zimbabwe,2014,21
+Nicaragua,2014,28
+Cambodia,2014,21
+Chad,2014,22
+Comoros,2014,26
+Eritrea,2014,18
+Iraq,2014,16
+Afghanistan,2014,12
+Burundi,2014,20
+Congo,2014,23
+Guinea Bissau,2014,19
+Turkmenistan,2014,17
+Democratic Republic of the Congo,2014,22
+Haiti,2014,19
+"Korea, North",2014,8
+Libya,2014,18
+Equatorial Guinea,2014,NA
+Sudan,2014,11
+Venezuela,2014,19
+Yemen,2014,19
+Syria,2014,20
+Somalia,2014,8
+South Sudan,2014,15
+Denmark,2013,91
+New Zealand,2013,91
+Finland,2013,89
+Singapore,2013,86
+Sweden,2013,89
+Switzerland,2013,85
+Norway,2013,86
+Netherlands,2013,83
+Germany,2013,78
+Luxembourg,2013,80
+Australia,2013,81
+Canada,2013,81
+Hong Kong,2013,75
+United Kingdom,2013,76
+Austria,2013,69
+Belgium,2013,75
+Estonia,2013,68
+Iceland,2013,78
+Japan,2013,74
+Ireland,2013,72
+United Arab Emirates,2013,69
+Uruguay,2013,73
+France,2013,71
+Bhutan,2013,63
+Chile,2013,71
+United States of America,2013,73
+Seychelles,2013,54
+Taiwan,2013,61
+Barbados,2013,75
+Bahamas,2013,71
+Qatar,2013,68
+Spain,2013,59
+"Korea, South",2013,55
+Portugal,2013,62
+Botswana,2013,64
+Brunei Darussalam,2013,60
+Israel,2013,61
+Lithuania,2013,57
+Slovenia,2013,57
+Saint Vincent and the Grenadines,2013,62
+Cabo Verde,2013,58
+Costa Rica,2013,53
+Cyprus,2013,63
+Latvia,2013,53
+Georgia,2013,49
+Poland,2013,60
+Saint Lucia,2013,71
+Dominica,2013,58
+Czechia,2013,48
+Oman,2013,47
+Rwanda,2013,53
+Grenada,2013,NA
+Italy,2013,43
+Malta,2013,56
+Mauritius,2013,52
+Saudi Arabia,2013,46
+Malaysia,2013,50
+Namibia,2013,48
+Greece,2013,40
+Armenia,2013,36
+Jordan,2013,45
+Slovakia,2013,47
+Belarus,2013,29
+Croatia,2013,48
+Cuba,2013,46
+Sao Tome and Principe,2013,42
+Montenegro,2013,44
+Senegal,2013,41
+Bulgaria,2013,41
+Hungary,2013,54
+Jamaica,2013,38
+Romania,2013,43
+South Africa,2013,42
+Tunisia,2013,41
+Ghana,2013,46
+Maldives,2013,NA
+Vanuatu,2013,NA
+Argentina,2013,34
+Bahrain,2013,48
+China,2013,40
+Kuwait,2013,43
+Solomon Islands,2013,NA
+Benin,2013,36
+Guyana,2013,27
+Lesotho,2013,49
+Burkina Faso,2013,38
+India,2013,36
+Morocco,2013,37
+Timor-Leste,2013,30
+Trinidad and Tobago,2013,38
+Turkey,2013,50
+Colombia,2013,36
+Ecuador,2013,35
+Brazil,2013,42
+Ethiopia,2013,33
+Kazakhstan,2013,26
+Peru,2013,38
+Serbia,2013,42
+Sri Lanka,2013,37
+Suriname,2013,36
+Tanzania,2013,33
+Gambia,2013,28
+Indonesia,2013,32
+Albania,2013,31
+Algeria,2013,36
+Cote d'Ivoire,2013,27
+El Salvador,2013,38
+Kosovo,2013,33
+Thailand,2013,35
+Vietnam,2013,31
+Bosnia and Herzegovina,2013,42
+Mongolia,2013,38
+North Macedonia,2013,44
+Panama,2013,35
+Moldova,2013,35
+Philippines,2013,36
+Egypt,2013,32
+Eswatini,2013,39
+Nepal,2013,31
+Sierra Leone,2013,30
+Ukraine,2013,25
+Zambia,2013,38
+Niger,2013,34
+Bolivia,2013,34
+Kenya,2013,27
+Kyrgyzstan,2013,24
+Mexico,2013,34
+Pakistan,2013,28
+Azerbaijan,2013,28
+Gabon,2013,34
+Malawi,2013,37
+Mali,2013,28
+Russia,2013,28
+Laos,2013,26
+Mauritania,2013,30
+Togo,2013,29
+Dominican Republic,2013,29
+Guinea,2013,24
+Liberia,2013,38
+Myanmar,2013,21
+Paraguay,2013,24
+Angola,2013,23
+Djibouti,2013,36
+Papua New Guinea,2013,25
+Uganda,2013,26
+Bangladesh,2013,27
+Central African Republic,2013,25
+Uzbekistan,2013,17
+Cameroon,2013,25
+Guatemala,2013,29
+Iran,2013,25
+Lebanon,2013,28
+Madagascar,2013,28
+Mozambique,2013,30
+Nigeria,2013,25
+Tajikistan,2013,22
+Honduras,2013,26
+Zimbabwe,2013,21
+Nicaragua,2013,28
+Cambodia,2013,20
+Chad,2013,19
+Comoros,2013,28
+Eritrea,2013,20
+Iraq,2013,16
+Afghanistan,2013,8
+Burundi,2013,21
+Congo,2013,22
+Guinea Bissau,2013,19
+Turkmenistan,2013,17
+Democratic Republic of the Congo,2013,22
+Haiti,2013,19
+"Korea, North",2013,8
+Libya,2013,15
+Equatorial Guinea,2013,19
+Sudan,2013,11
+Venezuela,2013,20
+Yemen,2013,18
+Syria,2013,17
+Somalia,2013,8
+South Sudan,2013,14
+Denmark,2012,90
+New Zealand,2012,90
+Finland,2012,90
+Singapore,2012,87
+Sweden,2012,88
+Switzerland,2012,86
+Norway,2012,85
+Netherlands,2012,84
+Germany,2012,79
+Luxembourg,2012,80
+Australia,2012,85
+Canada,2012,84
+Hong Kong,2012,77
+United Kingdom,2012,74
+Austria,2012,69
+Belgium,2012,75
+Estonia,2012,64
+Iceland,2012,82
+Japan,2012,74
+Ireland,2012,69
+United Arab Emirates,2012,68
+Uruguay,2012,72
+France,2012,71
+Bhutan,2012,63
+Chile,2012,72
+United States of America,2012,73
+Seychelles,2012,52
+Taiwan,2012,61
+Barbados,2012,76
+Bahamas,2012,71
+Qatar,2012,68
+Spain,2012,65
+"Korea, South",2012,56
+Portugal,2012,63
+Botswana,2012,65
+Brunei Darussalam,2012,55
+Israel,2012,60
+Lithuania,2012,54
+Slovenia,2012,61
+Saint Vincent and the Grenadines,2012,62
+Cabo Verde,2012,60
+Costa Rica,2012,54
+Cyprus,2012,66
+Latvia,2012,49
+Georgia,2012,52
+Poland,2012,58
+Saint Lucia,2012,71
+Dominica,2012,58
+Czechia,2012,49
+Oman,2012,47
+Rwanda,2012,53
+Grenada,2012,NA
+Italy,2012,42
+Malta,2012,57
+Mauritius,2012,57
+Saudi Arabia,2012,44
+Malaysia,2012,49
+Namibia,2012,48
+Greece,2012,36
+Armenia,2012,34
+Jordan,2012,48
+Slovakia,2012,46
+Belarus,2012,31
+Croatia,2012,46
+Cuba,2012,48
+Sao Tome and Principe,2012,42
+Montenegro,2012,41
+Senegal,2012,36
+Bulgaria,2012,41
+Hungary,2012,55
+Jamaica,2012,38
+Romania,2012,44
+South Africa,2012,43
+Tunisia,2012,41
+Ghana,2012,45
+Maldives,2012,NA
+Vanuatu,2012,NA
+Argentina,2012,35
+Bahrain,2012,51
+China,2012,39
+Kuwait,2012,44
+Solomon Islands,2012,NA
+Benin,2012,36
+Guyana,2012,28
+Lesotho,2012,45
+Burkina Faso,2012,38
+India,2012,36
+Morocco,2012,37
+Timor-Leste,2012,33
+Trinidad and Tobago,2012,39
+Turkey,2012,49
+Colombia,2012,36
+Ecuador,2012,32
+Brazil,2012,43
+Ethiopia,2012,33
+Kazakhstan,2012,28
+Peru,2012,38
+Serbia,2012,39
+Sri Lanka,2012,40
+Suriname,2012,37
+Tanzania,2012,35
+Gambia,2012,34
+Indonesia,2012,32
+Albania,2012,33
+Algeria,2012,34
+Cote d'Ivoire,2012,29
+El Salvador,2012,38
+Kosovo,2012,34
+Thailand,2012,37
+Vietnam,2012,31
+Bosnia and Herzegovina,2012,42
+Mongolia,2012,36
+North Macedonia,2012,43
+Panama,2012,38
+Moldova,2012,36
+Philippines,2012,34
+Egypt,2012,32
+Eswatini,2012,37
+Nepal,2012,27
+Sierra Leone,2012,31
+Ukraine,2012,26
+Zambia,2012,37
+Niger,2012,33
+Bolivia,2012,34
+Kenya,2012,27
+Kyrgyzstan,2012,24
+Mexico,2012,34
+Pakistan,2012,27
+Azerbaijan,2012,27
+Gabon,2012,35
+Malawi,2012,37
+Mali,2012,34
+Russia,2012,28
+Laos,2012,21
+Mauritania,2012,31
+Togo,2012,30
+Dominican Republic,2012,32
+Guinea,2012,24
+Liberia,2012,41
+Myanmar,2012,15
+Paraguay,2012,25
+Angola,2012,22
+Djibouti,2012,36
+Papua New Guinea,2012,25
+Uganda,2012,29
+Bangladesh,2012,26
+Central African Republic,2012,26
+Uzbekistan,2012,17
+Cameroon,2012,26
+Guatemala,2012,33
+Iran,2012,28
+Lebanon,2012,30
+Madagascar,2012,32
+Mozambique,2012,31
+Nigeria,2012,27
+Tajikistan,2012,22
+Honduras,2012,28
+Zimbabwe,2012,20
+Nicaragua,2012,29
+Cambodia,2012,22
+Chad,2012,19
+Comoros,2012,28
+Eritrea,2012,25
+Iraq,2012,18
+Afghanistan,2012,8
+Burundi,2012,19
+Congo,2012,26
+Guinea Bissau,2012,25
+Turkmenistan,2012,17
+Democratic Republic of the Congo,2012,21
+Haiti,2012,19
+"Korea, North",2012,8
+Libya,2012,21
+Equatorial Guinea,2012,20
+Sudan,2012,13
+Venezuela,2012,19
+Yemen,2012,23
+Syria,2012,26
+Somalia,2012,8
+South Sudan,2012,NA

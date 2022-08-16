@@ -1,0 +1,418 @@
+---
+title: "The Usual Suspects"
+author: "Jack Carter"  
+date: "8/15/2022"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(dplyr)
+library(tidyverse)
+library(stringr)
+library(ggthemes)
+library(stats)
+library(factoextra)
+
+# sets the seed for random number generation. 
+set.seed(1995)
+
+# sets max overlaps in GGplot.  
+options(ggrepel.max.overlaps = 15)
+
+# my personal plot theme for data visualizations. 
+my_theme <- theme_economist_white(gray_bg = FALSE) +
+  theme(plot.title = element_text(hjust = 0.5,
+                                  vjust = 10,
+                                  size = 10,
+                                  color = "#474747"),
+        plot.margin = unit(c(1, 1, 1, 1), "cm"),
+        axis.text = element_text(size = 9,
+                                 color = "gray30"),
+        axis.text.x=element_text(vjust = -2.5),
+        axis.title.x = element_text(size = 9,
+                                    color = "gray30",
+                                    vjust = -10),
+        axis.title.y = element_text(size = 9,
+                                    color = "gray30",
+                                    vjust = 10),
+        legend.direction = "vertical", 
+        legend.position = "right",
+        legend.title = element_blank(),
+        legend.text = element_text(size = 11,
+                                   color = "gray20"),
+        legend.margin=margin(1, -15, 1, 0),
+        legend.spacing.x = unit(0.25, "cm"),
+        legend.key.size = unit(1, "cm"), 
+        legend.key.height = unit(0.75, "cm"),
+        strip.text = element_text(hjust = 0.5,
+                                  vjust = 1,
+                                  size = 10,
+                                  color = "#474747"),
+        panel.spacing = unit(2, "lines"))
+
+# sets the working directory. 
+setwd("C:/Users/HUAWEI/Desktop/Exploratory data/The Magnificent Seven")
+
+# reads in the data. 
+data <- read_csv("Data/combined data/clean_data.csv")
+
+# sets a countries variable. 
+countries <- tibble(countries = data$country)
+
+# creates a data frame of country name reassignments. 
+reassignments <- tibble(original = c("Bosnia and Herzegovina",
+                                     "Congo, Dem. Rep.",
+                                     "Congo, Rep.",
+                                     "Egypt, Arab Rep.",
+                                     "Gambia, The",
+                                     "Korea, Rep.",
+                                     "Kyrgyz Republic",
+                                     "Lao PDR",
+                                     "North Macedonia",
+                                     "Russian Federation",
+                                     "Sao Tome and Principe",
+                                     "Slovak Republic",
+                                     "South Sudan",
+                                     "Syrian Arab Republic",
+                                     "United Arab Emirates",
+                                     "United Kingdom",
+                                     "United States",
+                                     "Venezuela, RB",
+                                     "West Bank and Gaza",
+                                     "Yemen, Rep.",
+                                     "Hong Kong SAR, China",
+                                     "Iran, Islamic Rep."),
+                        new = c("Bosnia",
+                                "DRC",
+                                "Congo",
+                                "Egypt",
+                                "Gambia",
+                                "S. Korea",
+                                "Kyrgyzstan",
+                                "Laos",
+                                "N. Macedonia",
+                                "Russia",
+                                "Sao Tome",
+                                "Slovakia",
+                                "S. Sudan",
+                                "Syria",
+                                "UAE",
+                                "UK",
+                                "US",
+                                "Venezuela",
+                                "Palestine",
+                                "Yemen",
+                                "Hong Kong",
+                                "Iran"))
+
+# reassigns the country names for all data frames. 
+reassign_countries <- function(data) {
+  countries <- data
+  for(i in 1:length(countries)) {
+    countries[i] <- if(countries[i] %in% reassignments$original) {
+      reassignments$new[which(countries[i]==reassignments$original)]
+    }
+    else {
+      countries[i]
+    }
+  }
+  return(countries)
+}
+
+# reassigns all countries in all data frames. 
+for(i in 1:length(countries)) {
+  countries$countries <- reassign_countries(countries$countries)
+}
+
+# takes the countries column away from the data frame. 
+data <- data[-1]
+
+# sets the row names to the country names. 
+rownames(data) <- countries$countries
+
+# creates a k-means object. 
+kmeans.res <- kmeans(data, centers=3, iter.max = 15, nstart = 1)
+
+# creates a list of colors. 
+green <- which(table(kmeans.res$cluster)==42)
+orange <- which(table(kmeans.res$cluster)==75)
+red <- which(table(kmeans.res$cluster)==48)
+
+col_values <- c("#009900", "#FF8000", "#CC0000")
+cols <- c(col_values[green], col_values[orange], col_values[red])
+
+```
+
+## **Summary**
+
+Based on eight different development indicators, the world's countries can be grouped into three categories. While some previously underdeveloped countries such as Singapore have shot into the so-called "first world", many of the group's occupants remain the usual suspects. 
+
+&nbsp;
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, dpi=600}
+
+# visualizes the data with the factoextra package. 
+fviz_cluster(object=kmeans.res,
+             data=data,
+             stand=FALSE,
+             geom = "text",
+             repel=TRUE,
+             ellipse.type = "t",
+             ellipse.level=0.95,
+             ellipse.alpha = 0.1,
+             labelsize = 5) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) + 
+  ggtitle("International Development") +
+  my_theme +
+  theme(legend.position="none")
+
+```
+
+&nbsp;
+
+## **Disclaimer**
+
+Thinking of countries only in terms of these three groups obscures the fact that development is actually a continuum. Also, while many African countries may remain in the so-called "third world", significant progress has been achieved here in recent decades. 
+
+&nbsp;
+
+## **Method**
+
+### **1) Reconcile Data Sets:**
+
+Data from the World Bank, Transparency International, Worldwide Governance Indicators and the UN are reconciled by identifying, changing and dropping relevant country names.
+
+---EXAMPLE CODE SNIPET---
+
+```{r, echo = TRUE, message = FALSE, warning = FALSE, dpi=600}
+
+# creates a list of non-identical country names. 
+get_non_identical <- function(list_1, list_2) {
+  data <- list_2[which(list_2 %in% list_1 == FALSE)]
+  return(data)
+}
+
+```
+
+&nbsp;
+
+### **2) Create Padded NA values:**
+
+Padded NA values are created for each country which is in the World Bank data frame but not in other data frames. 
+
+---EXAMPLE CODE SNIPET---
+
+```{r, echo = TRUE, message = FALSE, warning = FALSE, dpi=600}
+
+# creates a data frame of zeros for missing countries. 
+create_padded_values <- function(data_frame) {
+  # sets the column names with a value of NA. 
+  cols <- data_frame[1,-1]
+  for(i in 1:ncol(cols)) {
+    cols[1,i] <- NA
+  }
+  # creates a list of missing countries with col values of NA. 
+  added_countries <- list()
+  for(i in 1:length(missing)) {
+    added_countries[[i]] <- if(!missing[i] %in% data_frame$country) {
+      tibble(country = missing[i]) %>%
+        cbind(cols) %>%
+        tibble()
+    }
+  }
+  # combines all countries into 1 data frame if there are any missing. 
+  if(length(added_countries)>0) {
+    df <- added_countries %>% 
+      reduce(rbind)
+  } else {
+    return(tibble(country = "No missing countries here!"))
+  }
+  return(df)
+}
+
+```
+
+&nbsp;
+
+### **3) Remove High NA Entries:**
+
+Countries with a high number of NAs across multiple measures are identified and removed. 
+
+---EXAMPLE CODE SNIPET---
+
+```{r, echo = TRUE, message = FALSE, warning = FALSE, dpi=600}
+
+# gets how many NAs a certain row has. 
+get_nas <- function(row) {
+  nas <- list()
+  for(i in 1:ncol(row)) {
+    nas[i] <- if(is.na(row[,i])) 1 else 0
+  }
+  return(sum(unlist(nas)))
+}
+
+```
+
+&nbsp;
+
+### **4) Check Outliers**
+
+Outliers are checked for and capped by determining whether any of the values lie further than the interquartile range (IQR) * 1.5 away from the mean. 
+
+```{r, echo = TRUE, message = FALSE, warning = FALSE, dpi=600}
+
+# checks each column for outliers and caps them at IQR * 1.5. 
+cap_col_outliers <- function(column) {
+  iqr <- IQR(data[,2][!is.na(data[,2])])
+  upper_quantile <- quantile(data[,2][!is.na(data[,2])], 3/4, names=FALSE)
+  lower_quantile <- quantile(data[,2][!is.na(data[,2])], 1/4, names=FALSE)
+  
+  high <- upper_quantile + (iqr*1.5)
+  low <- lower_quantile - (iqr*1.5)
+  
+  outliers <- list()
+  for(i in 1:nrow(column)) {
+    value <- pull(column[i,])
+    outliers[[i]] <- if(!is.na(value) & value > low & value < high) {
+      value
+    } else {
+      if(!is.na(value) & value < low) {
+        low
+      } else {
+        if(!is.na(value) & value > high) {
+          high
+        } else {
+          NA
+        }
+      }
+    }
+  }
+  return(unlist(outliers))
+}
+
+```
+
+&nbsp;
+
+### **5) Get Z-scores**
+
+The data is standardized by calculating the z-scores as the data point minus the mean, divided by the standard deviation. 
+
+```{r, echo = TRUE, message = FALSE, warning = FALSE, dpi=600}
+
+# gets the z scores for individual columns. 
+get_col_z_scores <- function(column) {
+  avg <- mean(pull(column[!is.na(column),]))
+  std <- sd(pull(column[!is.na(column),]))
+  
+  z_scores <- list()
+  for(i in 1:nrow(column)) {
+    z_scores[[i]] <- (pull(column[i,]) - avg) / std
+  }
+  return(unlist(z_scores))
+}
+
+```
+
+&nbsp;
+
+### **6) Create Indexes**
+
+The individual data columns are then combined into 8 indexes, including technology, politics, education, health, happiness, economic, equality, poverty. 
+
+```{r, echo = TRUE, message = FALSE, warning = FALSE, dpi=600}
+
+# gets a new index measure by averaging column scores. 
+create_index <- function(data, col_names) {
+  measures <- data[,col_names]
+  cols <- length(col_names)
+  index <- list() 
+  for(i in 1:nrow(measures)) {
+    num <- sum(!is.na(measures[i,c(1:cols)]))
+    index[[i]] <- if(sum(is.na(measures[i,c(1:cols)])) >= cols) {
+      NA
+    } else {
+      sum(measures[i,which(!is.na(measures[i,c(1:cols)]))]) / num
+    }
+  }
+  unlist(index)
+}
+
+```
+
+&nbsp;
+
+### **7) Impute NAs**
+
+The remaining NA values are then imputed by taking a grouped average based on a complete column with the most variability.  
+
+```{r, echo = TRUE, message = FALSE, warning = FALSE, dpi=600}
+
+# imputes missing values by taking a grouped average based on a complete 
+# column we have full data for with the most variability.  
+fill_NAs <- function(data, measure) {
+  impute_var <- get_best_impute_var(data)
+  
+  # gets the grouped averages for missing values. 
+  imputed_values <- data %>%
+    mutate(impute_var = round(eval(parse(text=impute_var)))) %>%
+    group_by(impute_var) %>%
+    filter(!is.na(eval(parse(text=measure)))) %>%
+    summarise(avg = mean(eval(parse(text=measure))))
+  
+  # imputes the missing values for the target column. 
+  NAs <- data[is.na(data[,measure]),]
+  imputations <- list()
+  for(i in 1:nrow(NAs)) {
+    imputations[[i]] <- imputed_values$avg[which(pull(imputed_values["impute_var"]) == pull(round(NAs[i,impute_var])))]
+  }
+  data[is.na(data[,measure]),measure] <- unlist(imputations)
+  return(data[,measure])
+}
+
+```
+
+&nbsp;
+
+### **8) Visualize Data**
+
+The data is visualized with the use of a K-means clustering algorithm and the factoextra visualization package
+
+```{r, echo = TRUE, message = FALSE, warning = FALSE, dpi=600}
+
+# visualizes the data with the factoextra package. 
+plot <- fviz_cluster(object=kmeans.res,
+             data=data,
+             stand=FALSE,
+             geom = "text",
+             repel=TRUE,
+             ellipse.type = "t",
+             ellipse.level=0.95,
+             ellipse.alpha = 0.1,
+             labelsize = 8) +
+  scale_colour_manual(values = cols) +
+  scale_fill_manual(values = cols) + 
+  ggtitle("International Development") +
+  my_theme +
+  theme(legend.position="none")
+
+```
+
+&nbsp;
+
+## **Sources**
+
+- Transaprency International (2022) https://www.transparency.org/en/
+
+- WGI (2022) http://info.worldbank.org/governance/wgi/
+
+- World Bank (2022) https://data.worldbank.org/
+
+- World Happiness Report (2022) https://worldhappiness.report/ed/2022/ 
+
+&nbsp;
+&nbsp;
+&nbsp;
